@@ -7,13 +7,13 @@
 * CSS ใช้สำหรับตกแต่งไฟล์ให้มีความสวยงามมากขึ้น
 * image เก็บไฟล์รูปภาพสินค้า
 * js เก็บไฟล์ index.js slider.js zoomsl.min.js
-* [![image](https://www.w3schools.com/html/)](https://www.w3schools.com/html/)
 
 ## Link-project
 * Link video
   * 
 * Link git repository
   * https://github.com/Haseesah/240-311
+ 
 ## Member
 * นางสาวปณิดา อุยตระกูล รหัส 6310110265
 * นางสาวลัยล่า เนียมนำ  รหัส 6310110420
