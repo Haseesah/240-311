@@ -5,8 +5,8 @@
 
 # Component of Code
 1. CSS ใช้สำหรับตกแต่งไฟล์ให้มีความสวยงามมากขึ้น
-image เก็บไฟล์รูปภาพต่างๆ
-js เก็บไฟล์ bootstrap jquery popper
+2. image เก็บไฟล์รูปภาพสินค้า
+3. js เก็บไฟล์ index.js slider.js zoomsl.min.js
 
 
 
