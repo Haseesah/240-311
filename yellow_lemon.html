@@ -10,8 +10,9 @@
     />
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Login</title>
+    <title>Yellow Lemon Bag</title>
   </head>
+
   <body>
     <!-- Navigation -->
     <div class="top-nav">
@@ -75,58 +76,47 @@
         </div>
       </div>
     </div>
-    <!-- Login -->
-    <div class="container">
-      <div class="login-form">
-        <form action="">
-          <h1>Login</h1>
-          <p>
-            Already have an account? Login in or
-            <a href="signup.html">Sign Up</a>
-          </p>
 
-          <label for="email">Email</label>
-          <input type="text" placeholder="Enter Email" name="email" required />
-
-          <label for="psw">Password</label>
-          <input
-            type="password"
-            placeholder="Enter Password"
-            name="psw"
-            required
-          />
-
-          <label for="psw-repeat">Repeat Password</label>
-          <input
-            type="password"
-            placeholder="Repeat Password"
-            name="psw-repeat"
-            required
-          />
-
-          <label>
-            <input
-              type="checkbox"
-              checked="checked"
-              name="remember"
-              style="margin-bottom: 15px"
-            />
-            Remember me
-          </label>
-
-          <p>
-            By creating an account you agree to our
-            <a href="#">Terms & Privacy</a>.
-          </p>
-
-          <div class="buttons">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <button type="submit" class="signupbtn">Login</button>
+    <!-- Product Details -->
+    <section class="section product-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <img src="./img/products/p6.PNG" id="zoom" alt="" />
           </div>
-        </form>
+        </div>
+        <div class="right">
+          <span>JJL</span>
+          <h1>Yellow Lemon Bag</h1>
+          <div class="price">$150</div>
+          <form>
+            <div>
+              <select>
+                <option value="Select Size" selected disabled>
+                  Select Size
+                </option>
+                <option value="1">S</option>
+                <option value="2">M</option>
+                <option value="3">L</option>
+              </select>
+              <span><i class="bx bx-chevron-down"></i></span>
+            </div>
+          </form>
+          <form class="form">
+            <input type="text" placeholder="1" />
+            <a href="cart.html" class="addCart">Add To Cart</a>
+          </form>
+          <h3>Product Detail</h3>
+          <P>เนื้อผ้า: ผ้าใบ</P>
+          <P>สไตล์: สำหรับผู้หญิงหรือผู้ชาย</P>
+          <P>สไตล์แฟชั่นกระเป๋า: ถุงถัง</P>
+          <p>สายรัด: สองสาย</p>
+          <p>รูปแบบ: ลาย Yellow Lemon</p>
+        </div>
       </div>
-    </div>
+    </section>
 
+    
     <!-- Footer -->
     <footer class="footer">
       <div class="row">
@@ -155,11 +145,25 @@
           <span><i class="bx bxl-twitter"></i></span>
           <span><i class="bx bxl-pinterest"></i></span>
         </div>
-        
+
       </div>
     </footer>
 
     <!-- Custom Script -->
     <script src="./js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
   </body>
 </html>
