@@ -78,12 +78,22 @@
     <!-- Login -->
     <div class="container">
       <div class="login-form">
-        <form action="">
+
+        <form action="process.php" method="post">
+          
           <h1>Sign Up</h1>
           <p>
             Please fill in this form to create an account. or
             <a href="login.html">Login</a>
           </p>
+
+          <!--First name-->
+          <label for="fisrt_name">First Name</label>
+          <input type="text" placeholder="Enter First name" name="first_name">
+
+          <!--Last name-->
+          <label for="last_name">Last Name</label>
+          <input type="text" placeholder="Enter last name" name="last_name">
 
           <label for="email">Email</label>
           <input type="text" placeholder="Enter Email" name="email" required />
@@ -96,11 +106,11 @@
             required
           />
 
-          <label for="psw-repeat">Repeat Password</label>
+          <label for="psw_re">Repeat Password</label>
           <input
             type="password"
             placeholder="Repeat Password"
-            name="psw-repeat"
+            name="psw_re"
             required
           />
 
