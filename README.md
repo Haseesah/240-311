@@ -8,6 +8,13 @@
 * image เก็บไฟล์รูปภาพสินค้า
 * js เก็บไฟล์ index.js slider.js zoomsl.min.js
 
+## Built with
+* HTML
+* CSS
+* JavaScript
+* PHP
+* phpMyAdmin
+
 ## Link-project
 * Link video
   * https://youtu.be/tk0SZGVnaSs
