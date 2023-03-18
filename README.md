@@ -10,7 +10,7 @@
 
 ## Link-project
 * Link video
-  * 
+  * https://youtu.be/tk0SZGVnaSs
 * Link git repository
   * https://github.com/Haseesah/240-311
  
